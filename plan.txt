@@ -1,0 +1,6 @@
+This is the plan for the formula one app calendar app.
+
+Have a simple display with the date of each race, name of circuit, flag of country, and city. 
+
+If the race has already passed show the winner.
+
