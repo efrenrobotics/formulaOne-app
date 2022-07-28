@@ -1,0 +1,27 @@
+{
+    "name": "F1 Calendar",
+    "description": "A simple Formula One calendar.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/formula1-logo.png",
+            "32": "/images/formula1-logo.png",
+            "48": "/images/formula1-logo.png",
+            "128": "/images/formula1-logo.png"
+            
+        }
+    },
+    "icons": {
+        "16": "/images/formula1-logo.png",
+        "32": "/images/formula1-logo.png",
+        "48": "/images/formula1-logo.png",
+        "128": "/images/formula1-logo.png"
+    },
+    "options_page": "options.html"
+  }
